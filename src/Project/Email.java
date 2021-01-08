@@ -18,8 +18,8 @@ public class Email {
 	 * @throws DLException
 	 */	
    public void sendEmail(String email) throws DLException {
-      final String username = "conference.reset@gmail.com";
-      final String password = "qwert@12345";
+      final String username = "";
+      final String password = "";
       String temp="";
       Properties prop = new Properties();
       prop.put("mail.smtp.host", "smtp.gmail.com");
